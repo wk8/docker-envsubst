@@ -1,5 +1,5 @@
 # envsubst
-# docker run --rm -it -v $(pwd):/tmp -e ARG=arg supinf/envsubst /tmp/target.yml
+# docker run --rm -v $(pwd):/tmp -e ARG=arg supinf/envsubst /tmp/target.yml
 
 FROM alpine
 

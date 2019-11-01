@@ -12,4 +12,4 @@ if [ -e "${env_file}" ]; then
   source "${env_file}"
 fi
 
-envsubst < "${target_file}"
+/usr/bin/envsubst < "${target_file}"
